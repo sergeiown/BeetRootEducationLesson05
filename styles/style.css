@@ -1,0 +1,46 @@
+body {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Open Sans", sans-serif;
+}
+nav,
+header,
+section,
+article,
+footer {
+  background: rgba(3, 95, 3, 0.747);
+  border-radius: 6px;
+  color: rgba(255, 255, 255, 1);
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 25px 25px 25px 25px;
+  margin: 15px 20px 15px 20px;
+}
+header {
+  clear: both;
+  text-align: center;
+}
+nav {
+  clear: both;
+  text-align: left;
+}
+section {
+  float: right;
+  width: 35%;
+  text-align: center;
+}
+article {
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+footer {
+  clear: both;
+  text-align: center;
+}
+img {
+  width: 50%;
+  border-radius: 5%;
+  box-shadow: 0 0 10px rgba(25, 25, 25, 0.5);
+  margin: 20px 20px;
+}
