@@ -1,0 +1,326 @@
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  background-color: rgba(0, 0, 0, 1);
+}
+.container {
+  width: 1440px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+/* Navigation block */
+.navmenu {
+  display: flex;
+  justify-content: center;
+  margin-left: 235px;
+  width: 970px;
+  height: 80px;
+  border-bottom: 1px solid rgba(130, 130, 130, 1);
+}
+.navmenuitem {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+}
+
+/* First-page block */
+.first {
+  display: flex;
+  flex-direction: column;
+  margin-left: 235px;
+  width: 970px;
+  height: 510px;
+}
+.first-text {
+  width: 300px;
+  height: 60px;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+.first-img {
+  margin: 0px;
+}
+
+/* About block */
+.about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  height: 500px;
+  width: 1440px;
+  background-color: rgba(246, 246, 246, 1);
+}
+.aboutheader {
+  width: 200px;
+  height: 40px;
+  margin-left: 620px;
+  margin-right: 385px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.aboutp1 {
+  width: 480px;
+  height: 50px;
+  margin-left: 480px;
+  margin-right: 245px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.aboutp2 {
+  width: 406px;
+  height: 50px;
+  margin-left: 517px;
+  margin-right: 282px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.aboutp3 {
+  width: 321px;
+  height: 50px;
+  margin-left: 559.5px;
+  margin-right: 324.5px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+/* Skills block */
+.skills {
+  display: flex;
+  flex-direction: column;
+  margin-left: 235px;
+  height: 564px;
+  width: 970px;
+}
+.skillsheader {
+  width: 120px;
+  height: 40px;
+  margin-left: 425px;
+  margin-right: 425px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.skillsp1 {
+  width: 250px;
+  height: 24px;
+  margin-left: 360px;
+  margin-right: 360px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.skillsimgbox {
+  display: flex;
+}
+.skillsimg1 {
+  width: 170px;
+  height: 230px;
+  margin-left: 0px;
+  margin-right: 97px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.skillsimg2 {
+  width: 170px;
+  height: 230px;
+  margin-left: 0px;
+  margin-right: 97px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.skillsimg3 {
+  width: 170px;
+  height: 230px;
+  margin-left: 0px;
+  margin-right: 97px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.skillsimg4 {
+  width: 170px;
+  height: 230px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* Portfolio block */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0px;
+  height: 2268px;
+  width: 1440px;
+  background-color: rgba(246, 246, 246, 1);
+}
+.portfolioheader {
+  width: 150px;
+  height: 40px;
+  margin-left: 645px;
+  margin-right: 645px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.portfoliop1 {
+  width: 200px;
+  height: 50px;
+  margin-left: 619px;
+  margin-right: 619px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.portfoliop2 {
+  width: 200px;
+  height: 24px;
+  margin-left: 619px;
+  margin-right: 619px;
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.portfoliop3 {
+  width: 260px;
+  height: 24px;
+  margin-left: 619px;
+  margin-right: 619px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.portfolioimg {
+  width: 970px;
+  height: 540px;
+  margin-left: 234px;
+  margin-right: 234px;
+}
+
+/* Contacts block */
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-left: 235px;
+  margin-bottom: 100px;
+  height: 500px;
+  width: 970px;
+}
+.contactsheader {
+  width: 150px;
+  height: 40px;
+  margin-left: 410px;
+  margin-right: 410px;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.contactsp1 {
+  width: 280px;
+  height: 46px;
+  margin-left: 345px;
+  margin-right: 345px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.contactsimg1 {
+  width: 180px;
+  height: 44px;
+  margin-left: 395px;
+  margin-right: 395px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.contactsimgbox {
+  display: flex;
+}
+.contactsimg2 {
+  width: 40px;
+  height: 40px;
+  margin-left: 330px;
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.contactsimg3 {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.contactsimg4 {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 0px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.contactsimg5 {
+  width: 40px;
+  height: 40px;
+  margin-left: 50px;
+  margin-right: 330px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.contactsp2 {
+  width: 200px;
+  height: 60px;
+  margin-left: 385px;
+  margin-right: 385px;
+  margin-top: 0px;
+  margin-bottom: 100px;
+}
+
+/* Links styling block */
+a:link {
+  text-decoration: none;
+  color: rgba(130, 130, 130, 1);
+}
+a:visited {
+  text-decoration: none;
+  color: rgba(130, 130, 130, 1);
+}
+a:active {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+a:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* Text styling block */
+h1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 65px;
+  color: rgba(7, 7, 7, 1);
+}
+h2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 46px;
+  text-align: center;
+  color: rgba(7, 7, 7, 1);
+}
+.p1 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: rgba(7, 7, 7, 1);
+}
+.p2 {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(130, 130, 130, 1);
+}
